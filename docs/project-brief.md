@@ -1,9 +1,9 @@
 # Project Brief
 
-**Student:** [Your Name]  
-**Handle:** @[your-github-username]  
+**Student:** [Ruimin Piao]  
+**Handle:** @[ruiminpiao]  
 **Course:** Web Design 2025 · Fall  
-**Date:** [Fill in date - Week 2]
+**Date:** [27th November 2025 - Week 2]
 
 ---
 
@@ -12,14 +12,15 @@
 ### What are you building?
 
 <!-- Describe your project in 2-3 sentences -->
+This is a template designed mainly for other designers in search of a base from which they can build their web portfolio.
 
 ### Who is it for?
 
-<!-- Define your target audience -->
+Mainly for designers, but it could be use by anyone who needs to showcase their work, both visually and through text.
 
 ### Why does it matter?
 
-<!-- Explain the purpose and value of your project -->
+Many people are slightly taken aback when it comes to creating a website for their portfolio, so the main goal of this site is to help those people to get started with that without having to worry much on whether the website will work or not.
 
 ---
 
@@ -65,8 +66,8 @@
 
 ### Multilingual Considerations
 
-- Primary language:
-- Secondary language (optional):
+- Primary language: English
+- Secondary language (optional): Spanish
 - Translation strategy:
 
 ---
@@ -76,18 +77,22 @@
 ### Visual Style
 
 <!-- Describe your aesthetic approach -->
+It's going to be playing around the edges of minimalism and maximalism. Some parts will follow a more simple look, while other pages might contain a larger amount of elements, but always making sure that the whole composition has a coherent style.
 
 ### Color Palette
 
 <!-- List your main colors -->
+I haven't decided it yet.
 
 ### Typography
 
 <!-- What fonts/typeface approach will you use? -->
+For th body texts, I will use Poppins. And for the titles or headings, I will maybe use Chantal, or something with a similar style.
 
 ### Inspiration/References
 
 <!-- List 2-3 websites or designs that inspire your approach -->
+Tbd.
 
 ---
 
@@ -113,10 +118,13 @@
 ## Reflection Questions
 
 ### What excites you most about this project?
+Discovering new things about coding and being able to create an online site that might be able to help other designers.
 
 ### What challenges do you anticipate?
+Probably how the CSS and the JavaScript will work during the process, and also after it.
 
 ### How does this project connect to your learning goals?
+Not only is this a great way to develop my skills related to coding, but also, it will help for me to finally create a place where I will be able to post my very own graphic design portfolio on the internet.
 
 ---
 
