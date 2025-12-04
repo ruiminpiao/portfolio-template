@@ -1,6 +1,3 @@
-
-
-
 /*
  * UNIVERSAL BOX-SIZING
  *
@@ -37,7 +34,7 @@ html {
  * Line-height 1.6 is optimal for body text readability (1.5-1.7 range).
  */
 body {
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Poppins', sans-serif;
 	font-size: var(--text-base);  /* Uses our fluid typography variable */
 	line-height: 1.6;
 	color: var(--color-text);
@@ -78,6 +75,7 @@ a {
    The link is hidden off-screen until focused, then slides into view.
    This is a WCAG 2.1 Level A requirement for accessible navigation.
    -------------------------------------------------------------------------- */
+
 .skip-link {
 	position: absolute;
 	top: -100%;                       /* Hidden above viewport */
