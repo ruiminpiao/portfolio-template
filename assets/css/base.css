@@ -34,7 +34,7 @@ html {
  * Line-height 1.6 is optimal for body text readability (1.5-1.7 range).
  */
 body {
-	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Poppins', sans-serif;
+	font-family:'Poppins', sans-serif;
 	font-size: var(--text-base);  /* Uses our fluid typography variable */
 	line-height: 1.6;
 	color: var(--color-text);

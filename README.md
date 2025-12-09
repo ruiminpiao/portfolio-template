@@ -40,17 +40,23 @@ Ruimin Piao
 
 ## Project Structure
 
-```text
 PORTFOLIO-TEMPLATE/
-├── index.html        # Home Page
-├── css/
-│   └── base.css    # Basic CSS
-│   └── components.css    # CSS for components
-│   └── index.css    # CSS connections
-│   └── layout.css    # CSS for layout
-│   └── navigation.css    # CSS for navigation
-│   └── reset.css    # Meyer Web base CSS information
-│   └── theme.css    # CSS for theme
-├── js/
-│   └── script.js     # JS animations
-└── README.md         # Project documentation
+├── index.html
+├── 404.html
+├── README.md
+├── LICENSE
+├── .gitignore
+├── docs/                  # Documentation and plans
+│   └── plan.md            # Development plan with AI (if used)
+├── assets/
+│   ├── css/
+│   │   ├── index.css        # “barrel” document: centraliza todos los imports de CSS
+│   │   ├── base.css         # reset, variables, estilos de raíz
+│   │   ├── layout.css       # utilidades de layout/grid/flex
+│   │   ├── components.css   # estilos compartidos de componentes (botones, cards, etc.)
+│   │   └── [otros].css      # añade según necesidad
+│   ├── js/
+│   │   └── main.js
+│   ├── images/              # idealmente CDN ideally; si son locales, optimizadas y ligeras
+│   └── fonts/               # si usas tipografías personalizadas (se prefieren las de sistema)
+└── [configuración de build si aplica]
