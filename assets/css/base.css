@@ -97,5 +97,35 @@ a {
 }
 
 .menu-options a:hover {
-  color: #ffcc00; /* Highlight color */
+  color: #ffcc00;
+}
+
+/* First Section */
+h1, h4, p {
+  margin: 0;
+}
+
+section {
+  padding: 40px 40px;
+}
+
+.hero {
+  display: flex;
+  align-items: left;
+}
+
+.hero-text h1 {
+  font-size: 100pt;
+}
+
+.hero-text h4 {
+  font-size: 26pt;
+  color: #444;
+}
+
+.hero-images img {
+  width: 120px;
+  height: 120px;
+  margin-left: 20px;
+  cursor: grab;
 }
