@@ -65,30 +65,37 @@ a {
 	text-decoration: none;
 }
 
-/* --------------------------------------------------------------------------
-   SKIP LINK (ACCESSIBILITY)
-
-   🎓 WHY SKIP LINKS?
-   Screen reader and keyboard users shouldn't have to tab through the entire
-   navigation on every page. A skip link lets them jump directly to main content.
-
-   The link is hidden off-screen until focused, then slides into view.
-   This is a WCAG 2.1 Level A requirement for accessible navigation.
-   -------------------------------------------------------------------------- */
-
-.skip-link {
-	position: absolute;
-	top: -100%;                       /* Hidden above viewport */
-	left: 50%;
-	transform: translateX(-50%);      /* Center horizontally */
-	background: var(--color-accent);
-	color: white;
-	padding: var(--space-sm) var(--space-md);
-	border-radius: 0 0 8px 8px;       /* Rounded bottom corners only */
-	z-index: 1000;                    /* Above everything */
-	transition: top 0.3s;
+/* MENU */
+.top-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  z-index: 999;
 }
 
-.skip-link:focus {
-	top: 0;  /* Slides into view when focused via keyboard */
+.menu-title {
+  font-size: 13pt;
+}
+
+.menu-options {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-options a {
+  color: white;
+  text-decoration: none;
+  font-size: 13pt;
+  transition: color 0.3s ease;
+}
+
+.menu-options a:hover {
+  color: #ffcc00; /* Highlight color */
 }
