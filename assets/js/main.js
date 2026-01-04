@@ -45,17 +45,29 @@ draggableImages.forEach(image => {
     offsetX = e.clientX - image.offsetLeft;
     offsetY = e.clientY - image.offsetTop;
     image.style.cursor = "grabbing";
-  });
 
-  document.addEventListener("mouseup", () => {
-    isDragging = false;
-    image.style.cursor = "grab";
+    e.preventDefault();
   });
 
   document.addEventListener("mousemove", (e) => {
     if (isDragging) {
+      image.style.position = "absolute";
       image.style.left = `${e.clientX - offsetX}px`;
       image.style.top = `${e.clientY - offsetY}px`;
+    }
+  });
+
+  image.addEventListener("mouseup", () => {
+    if (isDragging) {
+      isDragging = false;
+      image.style.cursor = "grab";
+    }
+  });
+
+  window.addEventListener("mouseleave", () => {
+    if (isDragging) {
+      isDragging = false;
+      image.style.cursor = "grab";
     }
   });
 });
