@@ -65,12 +65,58 @@ a {
 	text-decoration: none;
 }
 
+/* 404 ERROR */
+.error h3 {
+  font-size: 50pt;
+  margin: 0;
+  margin-bottom: -15px;
+}
+
+.error {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://ik.imagekit.io/ruiminpiao/3.png?updatedAt=1762278951184);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 40px;
+  z-index: 999;
+  text-align: center;
+}
+
+.errorin {
+	margin-bottom: 40px;
+}
+
+.errorin p {
+	font-size: 10pt;
+}
+
+.list a {
+	color: #ffcc00;
+}
+
+.list a:hover {
+	text-decoration: underline;
+}
+
+.list {
+	font-size: 10pt;
+}
+
+.list ul {
+	list-style: none;
+}
+
 /* Menu */
 .top-menu {
   position: fixed;
   top: -100px;
   left: 0;
-  width: 100%;
+  width: 100vw;
   background-color: #333;
   color: white;
   display: flex;
