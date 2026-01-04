@@ -65,10 +65,10 @@ a {
 	text-decoration: none;
 }
 
-/* MENU */
+/* Menu */
 .top-menu {
   position: fixed;
-  top: 0;
+  top: -100px;
   left: 0;
   width: 100%;
   background-color: #333;
@@ -78,6 +78,7 @@ a {
   align-items: center;
   padding: 20px 40px;
   z-index: 999;
+  transition: top 0.3s ease-in-out; 
 }
 
 .menu-title {
@@ -99,6 +100,11 @@ a {
 .menu-options a:hover {
   color: #ffcc00;
 }
+
+.top-menu.show {
+  top: 0;
+}
+
 
 /* First Section */
 h1, h4, p {
