@@ -10,9 +10,17 @@ window.addEventListener('scroll', function () {
   }
 });
 
+// Parallax Scroll
+const heroImage = document.getElementById("https://ik.imagekit.io/ruiminpiao/keroppi.jpg?updatedAt=1758200878516");
+
+window.addEventListener("scroll", () => {
+  const scrollY = window.scrollY;
+  heroImage.style.transform = `translateY(${scrollY * 0.2}px)`; 
+});
+
 // Typewriter animation
 const typedText = document.getElementById("typed-text");
-const textContent = "Welcome to Your Name's Creative Portfolio";
+const textContent = "Welcome to Your Name's\nCreative Portfolio";
 let i = 0;
 
 function typeText() {
@@ -24,3 +32,30 @@ function typeText() {
 }
 
 window.onload = typeText;
+
+// Drag images
+const draggableImages = document.querySelectorAll(".draggable");
+
+draggableImages.forEach(image => {
+  let isDragging = false;
+  let offsetX, offsetY;
+
+  image.addEventListener("mousedown", (e) => {
+    isDragging = true;
+    offsetX = e.clientX - image.offsetLeft;
+    offsetY = e.clientY - image.offsetTop;
+    image.style.cursor = "grabbing";
+  });
+
+  document.addEventListener("mouseup", () => {
+    isDragging = false;
+    image.style.cursor = "grab";
+  });
+
+  document.addEventListener("mousemove", (e) => {
+    if (isDragging) {
+      image.style.left = `${e.clientX - offsetX}px`;
+      image.style.top = `${e.clientY - offsetY}px`;
+    }
+  });
+});
