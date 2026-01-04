@@ -33,6 +33,7 @@
 
 .list a:hover {
 	text-decoration: underline;
+    color: blueviolet;
 }
 
 .list {
