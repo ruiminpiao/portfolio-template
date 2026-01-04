@@ -1,12 +1,3 @@
-/*
- * UNIVERSAL BOX-SIZING
- *
- * border-box includes padding and border in the element's total width/height.
- * This makes sizing predictable: a 200px box stays 200px even with padding.
- *
- * Without this: width: 200px + padding: 20px = actual width of 240px 😱
- * With this:    width: 200px + padding: 20px = actual width of 200px ✅
- */
 *,
 *::before,
 *::after {
@@ -15,24 +6,10 @@
 	padding: 0;
 }
 
-/*
- * SMOOTH SCROLLING
- *
- * Native CSS smooth scrolling for anchor links. No JavaScript needed!
- * This is automatically disabled when prefers-reduced-motion is set.
- */
 html {
 	scroll-behavior: smooth;
 }
 
-/*
- * BASE TYPOGRAPHY
- *
- * System font stack: Uses the user's OS font for familiarity and performance.
- * No font files to download = faster page load!
- *
- * Line-height 1.6 is optimal for body text readability (1.5-1.7 range).
- */
 body {
 	font-family:'Poppins', sans-serif;
 	font-size: var(--text-base);  /* Uses our fluid typography variable */
@@ -41,86 +18,18 @@ body {
 	background-color: var(--color-bg);
 }
 
-/*
- * RESPONSIVE IMAGES
- *
- * max-width: 100% prevents images from overflowing their containers.
- * height: auto maintains aspect ratio when width changes.
- * display: block removes the inline whitespace gap below images.
- */
+/* RESPONSIVE IMAGES */
 img {
 	max-width: 100%;
 	height: auto;
 	display: block;
 }
 
-/*
- * LINK RESET
- *
- * Inherit color from parent and remove underline by default.
- * We'll add specific link styles where needed.
- */
+/* LINK RESET */
 a {
 	color: inherit;
 	text-decoration: none;
 }
-
-/* 404 ERROR */
-.error h3 {
-  font-size: 50pt;
-  margin: 0;
-  margin-bottom: -15px;
-}
-
-.error {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-image: url(https://ik.imagekit.io/ruiminpiao/3.png?updatedAt=1762278951184);
-  color: white;
-  justify-content: center;
-  align-items: center;
-  padding: 60px 40px;
-  z-index: 999;
-  text-align: center;
-}
-
-.errorin {
-	margin-bottom: 40px;
-}
-
-.errorin p {
-	font-size: 10pt;
-}
-
-.list a {
-	color: #ffcc00;
-}
-
-.list a:hover {
-	text-decoration: underline;
-}
-
-.list {
-	font-size: 10pt;
-}
-
-.list ul {
-	list-style: none;
-}
-
-.container404 {
-    position: fixed;
-    bottom: 0; 
-    left: 0;
-    text-align: end;
-    padding: 10px 10px; 
-	font-size: 8pt;
-	color: rgb(184, 8, 64);
-}
-
 
 /* Menu */
 .top-menu {

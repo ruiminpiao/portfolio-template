@@ -1,0 +1,54 @@
+.error h3 {
+  font-size: 50pt;
+  margin: 0;
+  margin-bottom: -15px;
+}
+
+.error {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://ik.imagekit.io/ruiminpiao/3.png?updatedAt=1762278951184);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 40px;
+  z-index: 999;
+  text-align: center;
+}
+
+.errorin {
+	margin-bottom: 40px;
+}
+
+.errorin p {
+	font-size: 10pt;
+}
+
+.list a {
+	color: #ffcc00;
+}
+
+.list a:hover {
+	text-decoration: underline;
+}
+
+.list {
+	font-size: 10pt;
+}
+
+.list ul {
+	list-style: none;
+}
+
+.container404 {
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    text-align: end;
+    padding: 10px 10px; 
+	font-size: 8pt;
+	color: rgb(184, 8, 64);
+}
