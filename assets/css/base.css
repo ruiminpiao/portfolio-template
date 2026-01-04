@@ -111,6 +111,17 @@ a {
 	list-style: none;
 }
 
+.container404 {
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    text-align: end;
+    padding: 10px 10px; 
+	font-size: 8pt;
+	color: rgb(184, 8, 64);
+}
+
+
 /* Menu */
 .top-menu {
   position: fixed;
