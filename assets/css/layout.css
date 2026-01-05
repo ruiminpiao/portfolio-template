@@ -56,10 +56,15 @@
    7. Footer
    -------------------------------------------------------------------------- */
 .footer {
-	padding: var(--space-lg) 0;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-top: 0px;
 	text-align: center;
 	color: var(--color-text-muted);
-	font-size: var(--text-sm);
+	font-size: 10pt;
+	margin-left: 40px;
+
 }
 
 .footer .container {
@@ -97,3 +102,5 @@
 		gap: var(--space-md);
 	}
 }
+
+/* Responsiveness */

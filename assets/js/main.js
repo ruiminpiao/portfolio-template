@@ -21,7 +21,7 @@ window.addEventListener("scroll", () => {
 // Typewriter animation
 const heroParagraph = document.querySelector(".herotext p");
 const typedText = document.getElementById("typedtext");
-const textContent = "Your Name's \ncreative portfolio";
+const textContent = "Ruimin Piao's \ncreative portfolio";
 let i = 0;
 
 function typeText() {
@@ -30,7 +30,6 @@ function typeText() {
     i++;
     setTimeout(typeText, 100);
   } else {
-    // Typing finished → show paragraph
     heroParagraph.classList.add("show");
   }
 }
