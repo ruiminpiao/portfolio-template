@@ -1,6 +1,6 @@
 // Show/Hide Menu
 window.addEventListener('scroll', function () {
-  const menu = document.querySelector('.top-menu');
+  const menu = document.querySelector('.topmenu');
   const scrollPosition = window.scrollY;
 
   if (scrollPosition > 20) {
@@ -19,8 +19,9 @@ window.addEventListener("scroll", () => {
 });
 
 // Typewriter animation
-const typedText = document.getElementById("typed-text");
-const textContent = "Welcome to Your Name's\nCreative Portfolio";
+const heroParagraph = document.querySelector(".herotext p");
+const typedText = document.getElementById("typedtext");
+const textContent = "Your Name's \ncreative portfolio";
 let i = 0;
 
 function typeText() {
@@ -28,10 +29,14 @@ function typeText() {
     typedText.innerHTML += textContent.charAt(i);
     i++;
     setTimeout(typeText, 100);
+  } else {
+    // Typing finished → show paragraph
+    heroParagraph.classList.add("show");
   }
 }
 
 window.onload = typeText;
+
 
 // Drag images
 const draggableImages = document.querySelectorAll(".draggable");
