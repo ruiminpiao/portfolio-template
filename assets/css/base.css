@@ -216,9 +216,11 @@ h3, p {
   opacity: 0;
   padding: 20px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  font-size: 12pt;
+  font-weight: 300;
   transition: opacity 0.3s ease;
 }
 
