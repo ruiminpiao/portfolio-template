@@ -146,12 +146,12 @@ h3, p {
   align-self: flex-start; 
   padding: 12px 28px;
   font-size: 10pt;
-  border: 1px solid #444;
   color: #444;
   cursor: pointer;
   transition: all 0.3s ease;
   background-color: #ffcc00;
   border-radius: 10px;
+  border: 0px solid;
 }
 
 .herobutton:hover {
@@ -375,8 +375,8 @@ h3, p {
   padding: 12px 28px;
   font-size: 10pt;
   font-family: inherit;
-  background: transparent;
-  border: 1px solid #444;
+  background-color:#aa11a0;
+  border: 0px solid;
   border-radius: 10px;
   color: #444;
   cursor: pointer;
