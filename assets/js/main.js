@@ -75,3 +75,23 @@ draggableImages.forEach(image => {
     }
   });
 });
+
+// Send button
+const contactForm = document.querySelector(".contactform");
+
+contactForm.addEventListener("submit", function (e) {
+  e.preventDefault(); // stops page reload
+
+  const email = contactForm.querySelector('input[type="email"]').value;
+  const message = contactForm.querySelector("textarea").value;
+
+  console.log("Email:", email);
+  console.log("Message:", message);
+
+  // Optional feedback
+  alert("Your message has been successfully sent!");
+
+  // Optional reset
+  contactForm.reset();
+});
+
