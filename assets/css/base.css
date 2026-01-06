@@ -12,10 +12,10 @@ html {
 
 body {
 	font-family:'Poppins', sans-serif;
-	font-size: var(--text-base);  /* Uses our fluid typography variable */
+	font-size: 13pt;
 	line-height: 1.6;
-	color: var(--color-text);
-	background-color: var(--color-bg);
+	color: #e1e0e6;
+	background-color: #0a1b46;
 }
 
 /* RESPONSIVE IMAGES */
@@ -37,8 +37,8 @@ a {
   top: -100px;
   left: 0;
   width: 100vw;
-  background-color: #333;
-  color: white;
+  background-color: #7789b3;
+  color: #152f70;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,20 +57,19 @@ a {
 }
 
 .menuoptions a {
-  color: white;
+  color: #e1e0e6;
   text-decoration: none;
   font-size: 13pt;
   transition: color 0.3s ease;
 }
 
 .menuoptions a:hover {
-  color: #ffcc00;
+  color: #152f70;
 }
 
 .topmenu.show {
   top: 0;
 }
-
 
 /* First Section */
 h3, p {
@@ -91,7 +90,7 @@ h3, p {
 .herobg {
   position: absolute;
   inset: 0;
-  background-image: url('https://ik.imagekit.io/ruiminpiao/3.png?updatedAt=1762278951184');
+  background-image: url('https://ik.imagekit.io/ruiminpiao/portfolio%20template/1.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -115,7 +114,7 @@ h3, p {
 
 .herotext h3 {
   font-size: 40pt;
-  color: #444;
+  color: #7789b3;
   line-height: 1.1 ;
   white-space: pre-wrap;
   align-items: baseline;
@@ -129,8 +128,10 @@ h3, p {
 
 .herotext p {
   font-size: 10pt;
+  color: #152f70;
   margin-top: 30px;
-  font-weight: 300;
+  font-weight: 400;
+  line-height: 1.2;
   opacity: 0;
   transform: translateY(10px);
   transition: opacity 0.6s ease, transform 0.6s ease;
@@ -146,17 +147,19 @@ h3, p {
   align-self: flex-start; 
   padding: 12px 28px;
   font-size: 10pt;
-  color: #444;
+  color: #152f70;
   cursor: pointer;
   transition: all 0.3s ease;
-  background-color: #ffcc00;
+  background-color: #7789b3;
   border-radius: 10px;
   border: 0px solid;
+  font-style: italic;
+  font-weight: 500;
 }
 
 .herobutton:hover {
-  background-color: #444;
-  color: white;
+  background-color: #152f70;
+  color: #e1e0e6;
 }
 
 .heroimages {
@@ -191,9 +194,8 @@ h3, p {
   position: relative;
   background-size: cover;
   background-position: center;
-  background-color: #ffcc00;
   border-radius: 10px;
-  color: white;
+  color: #e1e0e6;
   overflow: hidden;
   cursor: pointer;
   display: flex;
@@ -206,13 +208,14 @@ h3, p {
   margin: 0;
   font-size: 17pt;
   z-index: 2;
+  text-shadow: 0 2px 8px rgba(21, 47, 112, 0.8);
 }
 
 .cardoverlay {
   position: absolute;
   inset: 0;
-  background-color: rgba(210, 12, 78, 0.6);
-  color: white;
+  background-color: rgba(59, 83, 139, 0.6);
+  color: #e1e0e6;
   opacity: 0;
   padding: 20px;
   display: flex;
@@ -309,7 +312,8 @@ h3, p {
 .abouttext p {
   font-size: 12pt;
   line-height: 1.2;
-  color: #555;
+  font-weight: 300;
+  color: #e1e0e6;
 }
 
 /* Fourth Section */
@@ -323,7 +327,7 @@ h3, p {
   margin: 0 auto;
   display: flex;
   gap: 150px;
-  align-items: stretch; /* same height */
+  align-items: stretch;
   margin-left: 40px;
 }
 
@@ -349,10 +353,11 @@ h3, p {
   padding: 14px 16px;
   font-family: inherit;
   font-size: 10pt;
-  border: 1px solid #ccc;
+  border: 0px solid #0a1b46;
   border-radius: 10px;
   background: transparent;
   outline: none;
+  background-color: #3b538b;
 }
 
 .contactform textarea {
@@ -361,12 +366,18 @@ h3, p {
 }
 
 .contactform ::placeholder {
-  color: #999;
+  color: #152f70;
 }
+
+.contactform input,
+.contactform textarea {
+  color: #e1e0e6;
+}
+
 
 .contactform input:focus,
 .contactform textarea:focus {
-  border-color: #444;
+  border-color: #3b538b;
 }
 
 .contactform button {
@@ -375,17 +386,17 @@ h3, p {
   padding: 12px 28px;
   font-size: 10pt;
   font-family: inherit;
-  background-color:#aa11a0;
+  background-color:#3b538b;
   border: 0px solid;
   border-radius: 10px;
-  color: #444;
+  color: #e1e0e6;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .contactform button:hover {
-  background-color: #444;
-  color: white;
+  background-color: #e1e0e6;
+  color: #152f70;
 }
 
 .contactmedia {
@@ -406,12 +417,12 @@ h3, p {
 .socials a {
   text-decoration: none;
   font-size: 12pt;
-  color: #aa11a0;
+  color: #3b538b;
   transition: opacity 0.3s ease;
 }
 
 .socials a:hover {
   opacity: 1;
-  color: aqua;
+  color: #e1e0e6;
   text-decoration: underline;
 }

@@ -4,8 +4,8 @@
   top: 0px;
   left: 0;
   width: 100vw;
-  background-color: #333;
-  color: white;
+  background-color: #7789b3;
+  color: #152f70;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,18 +23,14 @@
 }
 
 .menuoptionsp a {
-  color: white;
+  color: #e1e0e6;
   text-decoration: none;
   font-size: 13pt;
   transition: color 0.3s ease;
 }
 
 .menuoptionsp a:hover {
-  color: #ffcc00;
-}
-
-.topmenup.show {
-  top: 0;
+  color: #152f70;
 }
 
 /* One Section */
