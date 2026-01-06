@@ -42,6 +42,7 @@
     justify-items: center;
     align-items: center;
     text-align: center;
+    color: #e1e0e6;
 }
 
 .projects2 {
@@ -65,12 +66,12 @@
   padding: 20px;
   background-size: cover;
   background-position: center;
-  background-color: #ffcc00;
   border-radius: 10px;
   display: flex;
   align-items: flex-end;
   text-decoration: none;
-  color: white;
+  color: #e1e0e6;
+  text-shadow: 0 2px 8px rgba(21, 47, 112, 0.8);
   cursor: pointer;
   overflow: hidden;
   transition: transform 0.3s ease;
@@ -85,8 +86,8 @@
 .cardoverlay2 {
   position: absolute;
   inset: 0;
-  background-color: rgba(210, 12, 78, 0.6);
-  color: white;
+  background-color: rgba(59, 83, 139, 0.6);
+  color: #e1e0e6;
   opacity: 0;
   padding: 20px;
   display: flex;
@@ -111,7 +112,7 @@
 }
 
 /* Responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .grid2 {
     grid-template-columns: 1fr;
   }
@@ -120,3 +121,58 @@
     height: 280px;
   }
 }
+
+@media (max-width: 768px) and (min-width: 491px) {
+  .menutitlep,
+  .menuoptionsp a {
+    font-size: 10pt;
+  }
+
+  .menuoptionsp {
+    gap: 25px;
+  }
+
+  .menutitlep {
+    opacity: 0;
+    top: -100px;
+  }
+
+  .card2 h3 {
+    font-size: 13pt;
+  }
+
+  .cardoverlay2 {
+    font-size: 10pt;
+  }
+
+}
+
+@media (max-width: 490px) {
+  .menuoptionsp {
+    gap: 35px;
+  }
+
+  .topmenup {
+    padding: 16px 20px;
+  }
+  
+  .menutitlep {
+    opacity: 0;
+    top: -100px;
+  }
+
+  .menutitlep,
+  .menuoptionsp a {
+    font-size: 8pt;
+  }
+
+  .card2 h3 {
+    font-size: 10pt;
+  }
+
+  .cardoverlay2 {
+    font-size: 8pt;
+  }
+}
+
+
