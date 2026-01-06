@@ -1,7 +1,9 @@
 .error h3 {
   font-size: 50pt;
   margin: 0;
+  font-weight: 500;
   margin-bottom: -15px;
+  color: #152f70;
 }
 
 .error {
@@ -10,8 +12,8 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url('https://ik.imagekit.io/ruiminpiao/3.png?updatedAt=1762278951184');
-  color: white;
+  background-image: url('https://ik.imagekit.io/ruiminpiao/portfolio%20template/1.png');
+  color: #152f70;
   justify-content: center;
   align-items: center;
   padding: 60px 40px;
@@ -28,12 +30,12 @@
 }
 
 .list a {
-	color: #ffcc00;
+	color: #7789b3;
 }
 
 .list a:hover {
 	text-decoration: underline;
-    color: blueviolet;
+    color: #3b538b;
 }
 
 .list {
@@ -50,6 +52,6 @@
     left: 0;
     text-align: end;
     padding: 10px 10px; 
-	font-size: 8pt;
-	color: rgb(184, 8, 64);
+	  font-size: 8pt;
+	  color: #7789b3;
 }
