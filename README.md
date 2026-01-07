@@ -43,6 +43,7 @@ Ruimin Piao
 PORTFOLIO-TEMPLATE/
 ├── index.html
 ├── 404.html
+├── projects.html
 ├── README.md
 ├── LICENSE
 ├── .gitignore
@@ -51,12 +52,14 @@ PORTFOLIO-TEMPLATE/
 ├── assets/
 │   ├── css/
 │   │   ├── index.css        # “barrel” document: centraliza todos los imports de CSS
-│   │   ├── base.css         # reset, variables, estilos de raíz
-│   │   ├── layout.css       # utilidades de layout/grid/flex
-│   │   ├── components.css   # estilos compartidos de componentes (botones, cards, etc.)
-│   │   └── [otros].css      # añade según necesidad
+        ├── reset.css        # basic css
+        ├── theme.css        # basic info
+│   │   ├── base.css         # index.html
+│   │   ├── layout.css       # layout of the website
+│   │   ├── 404.css          # 404.html
+│   │   └── projects.css     # projects.html
 │   ├── js/
 │   │   └── main.js
-│   ├── images/              # idealmente CDN ideally; si son locales, optimizadas y ligeras
-│   └── fonts/               # si usas tipografías personalizadas (se prefieren las de sistema)
+│   ├── images/              
+│   └── fonts/               
 └── [configuración de build si aplica]
