@@ -266,6 +266,7 @@ h3, p {
 }
 
 .aboutimages {
+  width: 280px;
   position: relative;
   width: 45vw;
   height: 100vh;
@@ -429,3 +430,339 @@ h3, p {
 }
 
 /* Responsiveness */
+@media (max-width: 769px) and (min-width: 491px) {
+  .menutitle,
+  .menuoptions a {
+    font-size: 10pt;
+  }
+
+  .menuoptions {
+    gap: 23px;
+  }
+
+  .menutitle {
+    opacity: 0;
+    top: -100px;
+  }
+
+  body {
+    font-size: 10pt;
+  }
+
+  .herocontent {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .herotext h3 {
+    font-size: 35pt;
+    margin-bottom: 0;
+  }
+
+  .herotext p {
+    font-size: 10pt;
+    margin-bottom: 40px;
+  }
+
+  .herobutton {
+    font-size: 10pt;
+  }
+
+  .heroimages {
+    width: 0%;
+  }
+
+  .heroimages img {
+    opacity: 0;
+  }
+
+  .herobg {
+    width: 100vw;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .card {
+    width: 80vw;
+    height: 260px;
+  }
+
+  .card.big,
+  .card.small {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .card h3 {
+    font-size: 13pt;
+  }
+
+  .cardoverlay {
+    font-size: 10pt;
+  }
+
+  .abouttext h3 {
+    font-size: 22pt;
+  }
+
+  .abouttext p {
+    font-size: 10pt;
+  }
+
+  .abouttext {
+    margin-top: 400px;
+  }
+
+  .aboutcontent {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    width: 90vw;
+  }
+
+  .aboutimages {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .aboutimg {
+    width: 50%;
+  }
+  
+  .aboutimages:hover .img1, 
+  .aboutimages:hover .img2,
+  .aboutimages:hover .img3,
+  .aboutimages:hover .img4 {
+    transform: none;
+  }
+
+  .contact {
+    margin-top: 300px;
+    padding: 0 20px 80px;
+  }
+
+  .contactcontent {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    margin-left: 0;
+  }
+
+  .contactbox,
+  .contactmedia {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contactbox h3 {
+    font-size: 20pt;
+  }
+
+  .contactform {
+    width: 100%;
+    align-items: center;
+  }
+
+  .contactform input,
+  .contactform textarea {
+    width: 80vw;
+    font-size: 10pt;
+  }
+
+  .contactform button {
+    font-size: 10pt;
+    align-self: center;
+  }
+
+  .socials {
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .socials a {
+    font-size: 10pt;
+  }
+}
+
+@media (max-width: 490px) {
+  .menuoptions {
+    gap: 35px;
+  }
+
+  .topmenu {
+    padding: 16px 20px;
+  }
+  
+  .menutitle {
+    opacity: 0;
+    top: -100px;
+  }
+
+  .menutitle,
+  .menuoptions a {
+    font-size: 8pt;
+  }
+
+  body {
+    font-size: 8pt;
+  }
+
+  .herocontent {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+  }
+
+  .herotext h3 {
+    font-size: 25pt;
+    margin-bottom: 0;
+  }
+
+  .herotext p {
+    font-size: 8pt;
+    margin-bottom: 40px;
+  }
+
+  .herobutton {
+    font-size: 8pt;
+    padding: 10px 22px;
+  }
+
+  .heroimages {
+    width: 0%;
+  }
+
+  .heroimages img {
+    opacity: 0;
+  }
+
+  
+  .projects {
+    padding: 100px 20px 60px;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .card {
+    width: 80vw;
+    height: 220px;
+    padding: 16px;
+  }
+  .card.big,
+  .card.small {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .card h3 {
+    font-size: 10pt;
+  }
+
+  .cardoverlay {
+    font-size: 8pt;
+  }
+
+  .abouttext h3 {
+    font-size: 16pt;
+  }
+
+  .abouttext p {
+    font-size: 8pt;
+  }
+
+  .abouttext {
+    margin-top: 400px;
+  }
+
+  .aboutcontent {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    width: 90vw;
+  }
+
+  .aboutimages {
+    width: 100%; 
+    margin-left: 0;
+  }
+
+  .aboutimg {
+    width: 60%;
+  }
+
+  .aboutimages:hover .img1, 
+  .aboutimages:hover .img2,
+  .aboutimages:hover .img3,
+  .aboutimages:hover .img4 {
+    transform: none;
+  }
+
+  .contact {
+    margin-top: 180px;
+    padding: 0 16px 60px;
+  }
+
+  .contactcontent {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-left: 0;
+  }
+
+  .contactbox,
+  .contactmedia {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contactbox h3 {
+    font-size: 16pt;
+  }
+
+  .contactform {
+    width: 100%;
+    align-items: center;
+  }
+
+  .contactform input,
+  .contactform textarea {
+    width: 80vw;
+    font-size: 8pt;
+  }
+
+  .contactform textarea {
+    min-height: 140px;
+  }
+
+  .contactform button {
+    font-size: 8pt;
+    align-items: center;
+  }
+
+  .socials {
+    margin-left: 0;
+    align-self: center;
+  }
+
+  .socials a {
+    font-size: 9pt;
+  }
+}
