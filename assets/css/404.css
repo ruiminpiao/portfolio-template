@@ -1,8 +1,7 @@
-.errorin h3 {
+.error h3 {
   font-size: 50pt;
   margin: 0;
   font-weight: 500;
-  margin-bottom: 300px;
   color: #152f70;
 }
 
@@ -27,7 +26,6 @@
 
 .errorin p {
 	font-size: 10pt;
-  margin-top: 20px;
 }
 
 .list a {
